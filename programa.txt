@@ -1,1 +1,1 @@
-Este programa registra clientes mediante un formulario.
+Este programa registra clientes mediante un formulario y mostrar los datos de dicho cliente.
