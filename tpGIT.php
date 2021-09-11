@@ -5,8 +5,11 @@ $telefono=$_POST['telefono'];
 $dni=$_POST['dni'];
 
 
-echo "$nombre $apellido ha sido registrado/a correctamente!";
-
+if(!$nombre || !$apellido || !$telefono || !$dni){
+    echo "Todos los campos son obligatorios!";
+} else{
+    echo "Se ha registrado correctamente!";
+}
 
 
 
